@@ -2,6 +2,8 @@
 #define GAME_H
 #include <stdio.h>
 #include <SDL2/SDL.h>
+#include <time.h>
+#include <unistd.h>  
 
 // Screen dimensions
 #define SCREEN_WIDTH 800
