@@ -1,7 +1,7 @@
 #include "../inc/game.h"
 
-#define MAP_WIDTH 8
-#define MAP_HEIGHT 8
+#define MAP_WIDTH 10
+#define MAP_HEIGHT 10
 
 int map[MAP_HEIGHT][MAP_WIDTH];
 int player_x = 0;  // Player's initial X position
@@ -38,7 +38,7 @@ void display_map() {
             } else if (map[i][j] == 1) {
                 printf("# ");  // Wall
             } else {
-                printf(". ");  // Path
+                printf(".");  // Path
             }
         }
         printf("\n");
