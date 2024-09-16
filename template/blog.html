@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Blog Post</title>
+    <style>
+        /* Internal CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007BFF;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Smooth scroll for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Blog Header -->
+    <header>
+        <h1>Maze Project Blog Post</h1>
+        <p><a href="https://www.linkedin.com/in/jeremy-mordecai-b2a80a266?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4iNtEIdlTiilnAPmhEcMbA%3D%3D" target="_blank">Connect with me on LinkedIn</a></p>
+    </header>
+
+    <!-- Introduction -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <img src="../assests/mazz" alt="Project Banner">
+        <p>The purpose of this project is to create an application that helps bicyclists find the best routes with the least elevation in San Francisco.</p>
+        <h3>Project development</h3>
+        <p>Since the inception of my maze game project in August, the journey has been both challenging and rewarding. In the initial weeks, I focused on laying a solid foundation by creating a Makefile and a header file, which were essential for organizing and compiling the project efficiently. This phase involved a lot of planning and collaboration with my team to ensure that we were all on the same page regarding the project’s structure and goals. We held regular meetings to discuss our progress and address any roadblocks, which helped us stay aligned and motivated.
+            By early September, we had made significant strides. I successfully downloaded the necessary game assets, which added a visual and auditory dimension to our project. Additionally, I created a detailed map of the maze, which served as a blueprint for the game’s design and functionality. This period was marked by intense collaboration, as we shared ideas and feedback to refine the maze’s layout and features. The team’s collective effort and dedication have been instrumental in bringing the project to life, and we continue to work closely to ensure its success.</p>
+    </section>
+
+    <!-- Personal Story -->
+    <section id="personal-story">
+        <h2>Why I Chose This Project</h2>
+        <p>The inspiration for my maze game project stems from a combination of my passion for puzzles and my fascination with game design. Growing up, I was always captivated by the intricate designs and the sense of accomplishment that came with solving mazes. This project is an opportunity to bring that same excitement to others.
+            I wanted to create a game that not only challenges players but also provides a visually engaging and immersive experience. The idea of navigating through complex pathways, encountering obstacles, and discovering hidden secrets within the maze excites me. Additionally, I aim to incorporate various levels of difficulty to cater to both casual players and hardcore puzzle enthusiasts.</p>
+    </section>
+
+    <!-- Project Accomplishments -->
+    <section id="accomplishments">
+        <h2>Project Accomplishments</h2>
+        <p>Our application helps urban cyclists find optimal routes in real-time.</p>
+        <img src="../assests/architectur" alt="Architecture Diagram">
+        <h3>Technologies Used</h3>
+        <ul>
+            <li>SDL2: For rendering and handling user input.</li>
+            <li>C Language: For its performance and low-level capabilities.</li>
+            <li>GCC: As the compiler, ensuring compatibility with Ubuntu 14.04 LTS.</li>
+            <li>JSON: For data serialization.</li>
+            <li>HTTP API: For managing user data and level.</li>
+          </ul>
+          
+        <h3>Key Features</h3>
+        <ul>
+            <li>Real-time weather updates for cyclists.</li>
+            <li>Responsive design compatible with mobile devices.</li>
+        </ul>
+    </section>
+
+    <!-- Technical Challenge -->
+    <section id="technical-challenge">
+        <h2>Most Difficult Technical Challenge</h2>
+        <p>Early in the project, I decided to implement Facebook OAuth to allow users to save their routes. The project required SSL security for OAuth, which we had to deploy under a tight deadline. By collaborating with peers and seeking external support, we managed to secure SSL and implement the feature in time.</p>
+    </section>
+
+    <!-- Lessons Learned -->
+    <section id="lessons-learned">
+        <h2>What I Learned</h2>
+        <p>As I delved into the development of my maze game project, I quickly realized the critical role that algorithms and data structures play in creating an engaging and efficient game. The challenge of dynamically generating mazes led me to explore various maze generation algorithms, such as Depth-First Search (DFS) and Prim’s algorithm. Implementing these algorithms not only enhanced my understanding of how they work but also allowed me to appreciate the elegance and efficiency they bring to problem-solving. The process of coding these algorithms and seeing them come to life in my game was incredibly rewarding and sparked a deeper interest in the field of algorithms.
+            Additionally, the need for efficient pathfinding within the maze introduced me to pathfinding algorithms like A* (A-star) and Dijkstra’s algorithm. These algorithms are essential for determining the shortest path through the maze, ensuring that the game remains challenging yet solvable. Working with these algorithms required me to think critically about data structures such as priority queues and graphs, which are fundamental to their implementation. This hands-on experience with algorithms and data structures not only improved my coding skills but also deepened my appreciation for their importance in computer science and game development.</p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Currently persuing IT at Daystar University ,software engeering at ALX and completed Devops at Moringa school.</p>
+        <ul>
+            <li><a href="https://github.com/jeremymordecai628/maze_project.git" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://yourprojectpage.com" target="_blank">Live Project Demo</a></li>
+            <li><a href="https://www.linkedin.com/in/jeremy-mordecai-b2a80a266?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4iNtEIdlTiilnAPmhEcMbA%3D%3D" target="_blank">LinkedIn Profile</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript for interactivity -->
+    <script>
+        // JavaScript for any necessary interactive elements
+        // Example: Smooth scrolling for anchor links (if needed)
+
+        // Smooth scrolling function
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
